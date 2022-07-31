@@ -6,7 +6,7 @@ public class BookDetail {
     private double price;
     private Integer year;
 
-    public BookDetail(String name, double price, Integer year) {
+    public BookDetail(String name, Double price, Integer year) {
         this.name = name;
         this.price = price;
         this.year = year;
@@ -20,11 +20,11 @@ public class BookDetail {
         this.name = name;
     }
 
-    public double getPrice() {
+    public Double getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(Double price) {
         this.price = price;
     }
 
