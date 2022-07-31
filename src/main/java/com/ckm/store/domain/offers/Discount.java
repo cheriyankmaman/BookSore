@@ -8,8 +8,6 @@ public interface Discount {
 
     Double apply(List<BookDetail> bookDetails, Double sum);
 
-    boolean filter(BookDetail bookDetail);
-
     boolean isApplicable();
 
     int order();

@@ -1,0 +1,10 @@
+store:
+  discounts:
+    final-price-based:
+      enabled: true
+      cutoff: 30
+      percent: 5
+    year-based:
+      enabled: true
+      cutoff: 2000
+      percent: 10

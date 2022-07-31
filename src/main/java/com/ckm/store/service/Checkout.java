@@ -43,15 +43,4 @@ public class Checkout {
 
         return sum.get();
     }
-
-    private double yearBaseDiscount(BookDetail bookDetailOptional) {
-
-        double discount = 10;
-        double price = 0;
-        if(bookDetailOptional.getYear() > 2000){
-            price = ((100 - discount) * bookDetailOptional.getPrice())/100;
-        }
-        price = bookDetailOptional.getPrice();
-        return price;
-    }
 }
